@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+  background-color: #EEE;
+}
+
+ul {
+  list-style-type: none;
+  margin: 50px;
+  padding: 50px;
+}
+
+li {
+  position: absolute;
+}
+
+img {
+  background-color: #FFF;
+  box-shadow: 0 1px 5px #999;
+  padding: 10px;
+  width: 400px;
+}
+
+li:nth-child(1) {
+  transform: rotate(10deg);
+}
+
+li:nth-child(2) {
+  transform: rotate(-5deg);
+}
